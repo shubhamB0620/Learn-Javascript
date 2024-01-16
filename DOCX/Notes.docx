@@ -1,0 +1,11 @@
+prefer not use var
+because of issue in block scope and functional issue
+
+data type 
+number
+int
+string
+boolean
+null
+undefined
+symbol
