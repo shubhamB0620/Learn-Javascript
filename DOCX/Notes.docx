@@ -1,11 +1,38 @@
+16/01/2024
 prefer not use var
 because of issue in block scope and functional issue
 
-data type 
-number
-int
+Primitive data type 
 string
+number
 boolean
 null
 undefined
-symbol
+symbol  const id = Symbol("123")
+BigInt  
+
+Reference datatype (Non Primitive datatype)
+Array
+Objects
+Functions
+
+
+Convertion Opertion
+"33"=>33
+"33ab"=> NaN
+true=>1 false=>0
+
+let value = 3
+changeValue3 = -value
+console.log (changeValue3)
+output change -ve
+
+
+17/01/2024
+=== Strict check also chack datatype
+console.log("2"===2) false
+console.log("2"==2)true
+
+
+Primitive use stack memory
+Non Primitive use Heap memory 
